@@ -1,0 +1,30 @@
+{
+  "name": "task-tracker-express",
+  "version": "0.0.0",
+  "description": "Trello clone",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitCode163/task-tracker-express.git"
+  },
+  "author": "Andrey Vize",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitCode163/task-tracker-express/issues"
+  },
+  "homepage": "https://github.com/GitCode163/task-tracker-express#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
